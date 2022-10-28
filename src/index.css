@@ -1,13 +1,144 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0%;
+  padding: 0%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+.main-container{
+  justify-content: center;
+  padding: 1rem;
+  max-width: 1100px;
+  overflow-x: hidden;
+  margin: 0 auto;
+
+}
+.canva{
+  
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  
+  align-items: center;
+  text-align: center;
+  border: 2px dotted lightgrey;
+  position:absolute;
+  left: 330px;
+  top: 60px;
+  opacity: 0.8;
+}
+.canvasp{
+ padding-left: 12px;
+  font-weight: bold;
+  color: lightgray;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.profile-image{
+  border-radius: 50%;
+  vertical-align: middle;
+  height: 100px;
+  margin-left: 140px;
+  margin-top: 80px;
+  color: black;
 }
+
+h1{
+  font-size: 1.2rem;
+  text-align: center;
+}
+.links{
+  display: inline-block;
+  background-color:#F4F5F7;
+  height: 50px;
+  margin: 0%;
+  padding-top: 20px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+}
+.slack-git{
+  text-align: center;
+  margin-top: 30px;
+  
+}
+.slack-img{
+  height: 35px;
+  width: 35px;
+}
+.github-img{
+  height: 55px;
+  width: 55px;
+  margin-left: 50px;
+  position: relative;
+  top: 7px;
+}
+
+hr{
+  margin-top: 150px;
+  margin-bottom: 65px;
+  color: grey;
+  opacity: 0.5;
+}
+#Zuri{
+  font-weight: bolder;
+  font-size:1.5rem;
+}
+#dot{
+  color: red;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+#hng{
+  color: grey;
+}
+#ingressive{
+  height: 30px;
+}
+@media screen and (min-width: 1024px) {
+  
+
+.profile-image{
+  
+  margin-left: 500px;
+  margin-top:0% ;
+}
+
+.all-links{
+  margin-top: 100px;
+}
+.links:hover{
+  background-color: lightgrey;
+}
+    .slack-img{
+      height: 20px;
+      width: 20px;
+    }
+  .github-img{
+    height: 30px;
+    position: relative;
+    top: 5px;
+    width: 30px;
+    margin-left: 20px;
+  }
+  hr{
+    margin-bottom: 0px;
+  }
+  .flex-container{
+    display: flex;
+    margin-right: 100px;
+  }#hng, #ingressive, #Zuri{
+  
+  margin-right: 370px;
+}
+#hngp{
+  font-size: 0.7rem;
+  padding: 0px;
+ width: 50px;
+}
+  }
